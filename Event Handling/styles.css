@@ -1,0 +1,42 @@
+.container {
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  padding: 10px;
+  row-gap: 10px;
+}
+
+.box {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-borders {
+  border-radius: 50%;
+  border: 5px solid mediumseagreen;
+}
+
+#formInput{
+  margin-top: 10px;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  background-color: lightgreen;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+#formInput:focus{
+  outline: none;
+  box-shadow: 0px 0px 10px green;
+}
+#formInput::placeholder{
+  color: green;
+}
